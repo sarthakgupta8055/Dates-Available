@@ -1,0 +1,16 @@
+button{
+   margin-top: 5px;
+}
+th, td, p, input {
+   font:14px Verdana;
+   padding-right: 200px;
+}
+table, th 
+{
+   border: solid 1px #DDD;
+   border-collapse: collapse;
+   text-align: center;
+}
+.hide{
+    display: none;
+}

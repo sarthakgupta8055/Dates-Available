@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Date Availability</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+	<style>
+    </style>
+</head>
+<body onload="displayData();">
+	<!--Table from JSON Data-->
+    <p id="showData"></p>
+    <div>	
+	    <button onclick="drawChart();">Draw Chart</button>
+	    <br>
+    	<button id="showDates" class="hide" onclick="showDates();">Available Dates</button>
+    </div>
+    <p id="Dates"></p>
+	
+	<div id="chartContainer" style=" width: 100%;"></div>
+
+	<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+	<script src="scripts/fetchData.js"></script>
+</body>
+</html>
